@@ -1,0 +1,17 @@
+#person:
+#  name: 李四
+#  boss: true
+#  birthday: 2000/1/1
+#  map: { k1: v1, k2: 100, k3: false }
+##  list: 1, java, 你好, false
+#  list:
+#    - 1
+#    - Java
+#    - 你好呀
+#    - false
+#  dog:
+#    name: Tom
+#    age: 1
+
+server:
+  port: 8084
