@@ -1,0 +1,11 @@
+2018-11-25 12:28:59.437  INFO 3924 --- [main] s.SpringBootFullLearningApplicationTests : Starting SpringBootFullLearningApplicationTests on DESKTOP-CTS1LHA with PID 3924 (started by HLQ in I:\IdeaProjects\spring-boot-full-learning)
+2018-11-25 12:28:59.439 DEBUG 3924 --- [main] s.SpringBootFullLearningApplicationTests : Running with Spring Boot v2.1.0.RELEASE, Spring v5.1.2.RELEASE
+2018-11-25 12:28:59.445  INFO 3924 --- [main] s.SpringBootFullLearningApplicationTests : No active profile set, falling back to default profiles: default
+2018-11-25 12:29:03.293  INFO 3924 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-11-25 12:29:03.938  INFO 3924 --- [main] s.SpringBootFullLearningApplicationTests : Started SpringBootFullLearningApplicationTests in 5.684 seconds (JVM running for 7.605)
+2018-11-25 12:29:04.427 TRACE 3924 --- [main] s.SpringBootFullLearningApplicationTests : 这是 trace 日志
+2018-11-25 12:29:04.429 DEBUG 3924 --- [main] s.SpringBootFullLearningApplicationTests : 这是 debug 日志
+2018-11-25 12:29:04.430  INFO 3924 --- [main] s.SpringBootFullLearningApplicationTests : 这是 info 日志
+2018-11-25 12:29:04.432  WARN 3924 --- [main] s.SpringBootFullLearningApplicationTests : 这是 warn 日志
+2018-11-25 12:29:04.432 ERROR 3924 --- [main] s.SpringBootFullLearningApplicationTests : 这是 error 日志
+2018-11-25 12:29:04.448  INFO 3924 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

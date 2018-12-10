@@ -1,0 +1,32 @@
+#server:
+#  port: 8081
+#spring:
+#  profiles:
+#    active: dev
+#
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+#---
+#server:
+#  port: 8083
+#spring:
+#  profiles: prod
+
+## 自定义属性内容
+#person:
+#  name: Calvin
+#  age: 20
+#  birthday: 1995/03/16
+#  boss: true
+#  map: { k1: v1, k2: 200, k3: false }
+#  list:
+#  - Apple
+#  - 10085
+#  - Xiaomi
+#  dog:
+#    name: Rookie
+#    color: brown
+#    bark: 汪汪

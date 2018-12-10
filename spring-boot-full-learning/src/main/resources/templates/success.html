@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>成功页面</title>
+</head>
+<body>
+
+  成功，<span th:id="*{ engineer }" th:text="${ engineer }">这是前端自己模拟的数据</span>
+  <hr />
+  语法规则<br />
+  ${} 和 *{} 在功能上是一样的，只不过 *{} 有一个补充功能：<br />
+  配合 th:object 使用<br />
+  #{} 用于获取国际化内容<br />
+  @{} 用于定义 URL<br />
+  ~{} 片段引用表达式<br />
+
+  <div th:text="${ text }"></div>
+  <div th:utext="${ text }"></div>
+
+  <ul>
+    <li th:each="entity : ${ list }" th:text="${ entity }"></li>
+  </ul>
+
+  <h5 th:each="e : ${ list }">[[ ${ e } ]]</h5>
+
+</body>
+</html>
