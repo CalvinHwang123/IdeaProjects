@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>[[#{ siri.title }]]</title>
+</head>
+<body>
+
+<a th:href="@{ /ask(lang='en_US') }">Siri</a>
+<a th:href="@{ /ask(lang='zh_CN') }">希瑞</a>
+<a th:href="@{ /ask(lang='zh_TW') }">希瑞(繁中)</a>
+
+<p th:text="#{ siri.ask }"></p>
+<p th:text="#{ siri.answer1 }"></p>
+<div style="height: 480px;"></div>
+<p th:text="#{ siri.answer2 }"></p>
+
+</body>
+</html>
